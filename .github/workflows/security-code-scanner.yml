@@ -34,7 +34,17 @@ jobs:
           {
             "language": "go",
             "build_mode": "none"
-          }
+          },
+                    {
+            "language": "cpp",
+            "ignore: true
+          },
+           {
+              "language": "java",
+              "build_mode": "autobuild",
+              "version": "21",
+              "distribution": "temurin"
+            },
         ]
     secrets:
       project-metrics-token: ${{ secrets.SECURITY_SCAN_METRICS_TOKEN }}
