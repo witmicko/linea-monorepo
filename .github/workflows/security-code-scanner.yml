@@ -37,7 +37,7 @@ jobs:
           },
                     {
             "language": "cpp",
-            "ignore: true
+            "ignore: "true"
           },
            {
               "language": "java",
