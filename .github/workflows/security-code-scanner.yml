@@ -44,7 +44,7 @@ jobs:
               "build_mode": "autobuild",
               "version": "21",
               "distribution": "temurin"
-            },
+            }
         ]
     secrets:
       project-metrics-token: ${{ secrets.SECURITY_SCAN_METRICS_TOKEN }}
