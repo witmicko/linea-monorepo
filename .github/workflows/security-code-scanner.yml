@@ -17,7 +17,7 @@ on:
 
 jobs:
   security-scan:
-    uses: witmicko/action-security-code-scanner/.github/workflows/security-scan.yml@main
+    uses: metamask/action-security-code-scanner/.github/workflows/security-scan.yml@main
     permissions:
       actions: read
       contents: read
